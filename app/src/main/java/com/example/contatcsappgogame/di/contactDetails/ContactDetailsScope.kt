@@ -1,3 +1,8 @@
 package com.example.contatcsappgogame.di.contactDetails
 
-annotation class ContactDetailsScope()
+import javax.inject.Scope
+
+@MustBeDocumented
+@Scope
+@Retention(AnnotationRetention.RUNTIME)
+annotation class ContactDetailsScope

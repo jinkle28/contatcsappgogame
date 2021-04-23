@@ -1,4 +1,8 @@
 package com.example.contatcsappgogame.di.contactsList
 
-class ContactsListScope {
-}
+import javax.inject.Scope
+
+@MustBeDocumented
+@Scope
+@Retention(AnnotationRetention.RUNTIME)
+annotation class ContactsListScope
